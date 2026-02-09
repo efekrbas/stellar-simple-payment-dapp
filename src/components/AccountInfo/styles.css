@@ -1,0 +1,57 @@
+.account-info {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+.account-info h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.label {
+    font-weight: bold;
+    color: #aaa;
+}
+
+.value {
+    font-family: monospace;
+}
+
+.value.code {
+    background: #111;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.value.highlight {
+    color: #4caf50;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.funding-needed {
+    text-align: center;
+    background: #443300;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning {
+    color: #ffd700;
+}
+
+.error {
+    color: #ff5252;
+}
